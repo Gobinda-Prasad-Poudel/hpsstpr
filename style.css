@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Raleway:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#main{
+    
+    background-color: var(--primary-color);
+}
+/*-----------------------For active--------------------*/
+#active{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*--------------------------- For NavBar ------------------------------*/
+.navbar{
+    width: 90vw;
+    height: 80px;
+    /* background-color: rgb(92, 222, 240); */
+   
+    
+}
+.nav-bar-list{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/*     box-shadow: 6px 6px 10000px black; */
+
+
+
+    
+}
+.vertical-nav-lists{
+    right: -250px;
+    height: 250px;
+    background-color: var(--primary-color);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navlists{
+
+display: none;
+
+}
+.vertical-nav-lists li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.vertical-nav-lists li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/*--------------------------------------------------- For Navbar Icon Or Hamburger Icon ---------------------------------*/
+
+.menu-icon-hmburger{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+.menu-icon-hmburger div{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    
+
+}
+.menu-icon-hmburger span{
+    background: var(--primary-color);
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s , width 0.5s;
+    
+}
+.menu-icon-hmburger .line-1{
+    transform: translate(-50% , -20px);
+}
+
+.menu-icon-hmburger .line-3{
+    transform: translate(-50% , 10px);
+}
+.openmenu .line-1{
+    transform:translate(-50% , -50%) rotate(45deg);
+}
+.openmenu .line-3{
+    transform:translate(-50% , -50%) rotate(-45deg);
+}
+.openmenu .line-2{
+    width: 0;
+
+}
+
+
+:root{
+  --primary-color:#d2d5ff; 
+  --secondary-color:#000;
+  --third-color:#bfc4ff;
+  --fourth-color:#fff;
+  --fifth-color:#000;
+  --six-color:#fcd360;
+  --seventh-color:#b59845;
+  
+ /* --primary-color:#000;
+ --secondary-color:#fff; */
+}
+.dark-mode{
+    --primary-color:#000;
+ --secondary-color:#d2d5ff;
+  --third-color:#bfc4ff;
+  --fourth-color:#000;
+  --fifth-color:#fff;
+  --six-color:#b59845;
+  --seventh-color:#fcd360;
+  
+}
+.nav-bar-list ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 30px 36px;
+    /* margin-right: 10px; */
+}
+.nav-bar-list ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.nav-bar-list ul li a:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 5px;
+    border-radius: 10px;
+}
+#logo{
+    width: 80px;
+    height: 45px;
+}
+
+#icon{
+    /* margin-right:40px; */
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.lists{
+   flex: -1; 
+   
+}
+
+/*---------------------------For School Name---------------*/
+.schoolName{
+    width: 90vw;
+    height: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.big{
+     font-size: 3rem;
+     color: var(--secondary-color);
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     cursor: pointer;
+     text-align: center;
+ }
+ .big::selection{
+     background-color:var(--third-color);
+     
+}
+.big-2{
+     font-size: 3rem;
+     color: var(--secondary-color);
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     cursor: pointer;
+     text-align: center;
+     padding-top: 40px;
+    
+ }
+ .big-2::selection{
+     background-color:var(--third-color);
+     
+}
+.medium{
+       font-size: 1.8rem;
+       color: var(--secondary-color);
+       font-family: 'Open Sans', sans-serif;
+       font-family: 'Roboto', sans-serif;
+       cursor: pointer;
+       text-align: center;
+}
+.medium::selection{
+    background-color:var(--third-color);
+    
+}
+ 
+ .schoolName .adress{
+     color: var(--secondary-color);
+     font-size: 1.4rem;
+     font-family: 'Nunito', sans-serif;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ /*------------------For Sticky Navbar----------------*/
+ nav.sticky{
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 2;
+     margin-right: 10px;
+     width: 100%;
+    background-color: var(--primary-color);     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10000000px var(--secondary-color) ;
+ }
+
+
+/*---------------------------For Image Slider-----------------------------*/
+.imgSlider{
+    
+    
+    height: fit-content;
+}
+.swiper{
+    width: 70rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border: 2px solid var(--secondary-color);
+
+}
+
+/*--------------------------------For Footer--------------------*/
+.footer-container{
+    height: 250px;
+    background-color: var(--secondary-color);
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media-links p{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.social-media-links a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.social-media-links a i{
+    font-size: 1.2rem;
+    margin: 10px;
+    margin-top: 14px;
+}
+.social-media-links a i:hover{
+   color: var(--secondary-color);
+   background-color: var(--primary-color);
+   padding: 8px;
+   border-radius: 50%;
+
+}
+.location{
+    color: var(--primary-color);
+}
+.location p{
+    font-size: 1.6rem;
+    
+}
+
+.spans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.spans p{
+    font-size: 1.2rem;
+}
+.copyright-text{
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/*------------------------- For Teacher Info ---------------------------------*/
+.info{
+    /* background-color: green; */
+   /*  height: 1600px; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#teacher{
+    font-size: 1.6rem;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+.live-info{
+    height: 80%;
+    width: 90%;
+    /* background-color: red; */
+}
+.teacher-info{
+    height: 90%;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.live-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+#holidayDetailInfo{
+    font-size: 1.2rem;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+/*---------------------------- Services -----------------------------------------*/
+.links{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.highlight{
+    background-color: var(--six-color);
+}
+.big-txt{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-weight: bold;
+background-color: aqua;
+
+}
+.main-services span{
+    font-size: 1.2rem;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+  
+}
+.icons{
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.icons:hover{
+    font-size: 7rem;
+}
+
+.main-services p{
+    margin-top: 2rem;
+}
+
+.container-services{
+    height: 600px;
+    width: auto;
+    /* background-color: red; */
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+/* .items{
+    background-color: yellow;
+    
+} */
+.line-medium{
+    height: 4px;
+    color: var(--secondary-color);
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /* border: 6px solid red; */
+}
+.service-main{
+    font-size: 1.2rem;
+}
+.services-description{
+    text-align: center;
+}
+.btn-services{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--secondary-color);
+    margin-bottom: 10px;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    
+}
+
+.btn-services a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 16px;
+
+}
+.small{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+/*--------------------------- Respoinsiveness -----------------------------------*/
+
+
+/* For Mobile Phone: */
+@media (max-width: 768px){
+    .menu-icon-hmburger{
+        display: unset;
+        
+    }
+    .lists{
+        display: none;
+    }
+    .swiper{
+        width: 280px;
+        height: 380px;
+    }
+    #main{
+        width: 100%;
+        height: 100%;
+    }
+    .big{
+        font-size: 1.5rem;
+    }
+    .adress{
+        font-size: 9px;
+        
+        
+    }
+    .span-adress{
+        display: none;
+    }
+    .container-services{
+        flex-direction: column;
+    }
+    #teacher , #holidayDetailInfo{
+        font-size: 1.1rem;
+        
+    }
+    
+    
+
+    /*------------------------For Footer--------------------------*/
+    .footer-container{
+        height: 450px;
+    }
+    .footer-elements{
+        flex-direction: column;
+    }
+    .location{
+        margin-bottom: 40px;
+    }
+    .social-media-links{
+        margin-bottom:40px;
+    }
+    .contact{
+       margin-bottom: 40px;
+    }
+    
+    .description h2{
+        font-size: 1.1rem;
+    }
+    .icons{
+        font-size: 3.2rem;
+    }
+    .container-services{
+        height: 1000px;
+    }
+
+}
+
+/* For Tablets And Ipads: */
+@media (min-width:769px) and (max-width :1023px){
+    .menu-icon-hmburger{
+        display: unset;
+    }
+    .lists{
+        display: none;
+    }
+    .swiper{
+        width: 44rem;
+        margin: 10%;
+    }
+    .big{
+        font-size: 1.8rem;
+    }
+    .address{
+        font-size: 1.2rem;
+    }
+    .social-media p{
+        font-size: 16px;
+    }
+    .social-media a{ 
+        font-size: 10px;
+        display: inline-block;
+   }
+   .container-services{
+       height: 1000px;
+   }
+   #teacher , #holidayDetailInfo{
+    font-size: 1.1rem;
+    
+}
+
+  
+    
+    /*------------------------For Footer--------------------------*/
+    .footer-container{
+        height: 450px;
+    }
+    .footer-elements{
+        flex-direction: column;
+    }
+    .location{
+        margin-bottom: 40px;
+    }
+    .social-media-links{
+        margin-bottom:40px;
+    }
+    .contact{
+       margin-bottom: 40px;
+    }
+    
+
+}
+
+
+/* For Desktop and laptop: */
+@media (min-width: 1024px){
+    
+    .menu-icon-hmburger{
+        display: none;
+    }
+    /* .copyright-text-1{
+        display: none;
+    } */
+    
+
+}
+
+
+

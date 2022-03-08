@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navlists{
+    right: -250px;
+
+}
+.vertical-nav-lists{
+
+    height: 250px;
+    background-color: red;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vertical-nav-lists li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.vertical-nav-lists li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}

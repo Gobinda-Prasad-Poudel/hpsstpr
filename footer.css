@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Nunito:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.footer-container{
+    height: 250px;
+    background-color: var(--primary-color);
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media-links p{
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+}
+
+.social-media-links a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.social-media-links a i{
+    font-size: 1.2rem;
+    margin: 10px;
+    margin-top: 14px;
+}
+.social-media-links a i:hover{
+   color: var(--primary-color);
+   background-color: var(--secondary-color);
+   padding: 8px;
+   border-radius: 50%;
+
+}
+.location{
+    color: var(--secondary-color);
+}
+.location p{
+    font-size: 1.6rem;
+    
+}
+
+.spans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+.spans p{
+    font-size: 1.2rem;
+}
+.copyright-text{
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+:root{
+    --primary-color:#000;
+    --secondary-color:#fff;
+
+}
+
+/*-----------------------------------Responsiveness-------------------------------------*/
+/*---------------- For Mobile Phone: -----------------------------------*/
+@media (max-width: 768px){
+    /*------------------------For Footer--------------------------*/
+    .footer-container{
+        height: 450px;
+    }
+    .footer-elements{
+        flex-direction: column;
+    }
+    .location{
+        margin-bottom: 40px;
+    }
+    .social-media-links{
+        margin-bottom:40px;
+    }
+    .contact{
+       margin-bottom: 40px;
+    }
+}
+
+/*--------------------- For Tablets And Ipads: ------------------------------*/
+@media (min-width:769px) and (max-width :1023px){
+    /*------------------------For Footer--------------------------*/
+    .footer-container{
+        height: 450px;
+    }
+    .footer-elements{
+        flex-direction: column;
+    }
+    .location{
+        margin-bottom: 40px;
+    }
+    .social-media-links{
+        margin-bottom:40px;
+    }
+    .contact{
+       margin-bottom: 40px;
+    }
+
+}
+
+
+/*--------------------------------------- For Desktop and laptop: ---------*/
+@media (min-width: 1024px){
+}
