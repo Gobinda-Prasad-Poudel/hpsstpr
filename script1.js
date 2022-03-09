@@ -17,9 +17,11 @@ icon.onclick = function () {
 /*-----------------For Sticky Navbar----------------------*/
 var navbar = document.querySelector("nav");
 var menu = document.querySelector(".lists");
+var menuVertical = document.querySelector("#navlists");
 
 window.onscroll = function () {
     navbar.classList.toggle("sticky", window.scrollY > 0)
+    menuVertical.classList.toggle("sticky-2", window.scrollY > 0)
 };
 
 /*------------------------------For Copyright Text-------------------*/
