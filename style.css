@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Nunito:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Fira+Sans&display=swap');
 
 
 *{
@@ -388,6 +389,17 @@ display: none;
     font-family: 'Varela Round', sans-serif;
 
 }
+.medium-1{
+    font-family: 'Fira Sans', sans-serif;
+font-size: 1.3rem;
+}
+.medium-1 span{
+    background: red;
+    color: var(--primary-color);
+    font-family: 'Cabin', sans-serif;
+    padding: 2px;
+    border-radius: 6px;
+}
 
 /*---------------------------- Services -----------------------------------------*/
 .links{
@@ -632,5 +644,6 @@ background-color: aqua;
     
 
 }
+
 
 
