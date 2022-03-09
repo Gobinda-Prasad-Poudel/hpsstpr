@@ -59,6 +59,12 @@
 
 display: none;
 
+
+}
+.vertical-nav-lists{
+
+    background-color: var(--secondary-color);
+    border-radius: 10px;
 }
 .vertical-nav-lists li {
     margin-bottom: 20px;
@@ -66,7 +72,7 @@ display: none;
 }
 .vertical-nav-lists li a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 1.2rem;
     font-family: 'Cabin', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -242,6 +248,11 @@ display: none;
      font-size: 1.4rem;
      font-family: 'Nunito', sans-serif;
      font-family: 'Roboto', sans-serif;
+ }
+
+ /*------------------------------ For School Photo ------------------*/
+ #images{
+     background: fixed;
  }
 
  /*------------------For Sticky Navbar----------------*/
@@ -514,6 +525,11 @@ background-color: aqua;
         
     }
     
+.medium{
+    font-size: 1.2rem;
+}
+
+    
     
 
     /*------------------------For Footer--------------------------*/
@@ -576,6 +592,9 @@ background-color: aqua;
    #teacher , #holidayDetailInfo{
     font-size: 1.1rem;
     
+}
+.medium{
+    font-size: 1.2rem;
 }
 
   
