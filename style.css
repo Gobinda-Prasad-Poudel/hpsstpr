@@ -270,6 +270,19 @@ display: none;
     justify-content: space-between;
     box-shadow: 5px 5px 10000000px var(--secondary-color) ;
  }
+ .sticky-2{
+     position: fixed;
+     top: 0;
+     left: 0;
+    /*  z-index: 2; */
+     margin-top: 40px;
+     width: 100%;
+    background-color: var(--primary-color);     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ }
 
 
 /*---------------------------For Image Slider-----------------------------*/
