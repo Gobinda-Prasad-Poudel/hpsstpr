@@ -108,6 +108,7 @@ var teacherInformation = [
         'name': 'DR Bhandari',
         'post': 'Principal',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -116,6 +117,7 @@ var teacherInformation = [
         'name': 'Shiva Pun',
         'post': 'Vice-Principle',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -124,6 +126,7 @@ var teacherInformation = [
         'name': 'Tilak Kalathoki',
         'post': 'Welfare Officer',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -132,6 +135,7 @@ var teacherInformation = [
         'name': 'Minraj Bhandari',
         'post': 'Secondary Level Coodinator',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -140,6 +144,7 @@ var teacherInformation = [
         'name': 'Navraj Sharma',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -148,6 +153,7 @@ var teacherInformation = [
         'name': 'Sandesh Bhandari',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -156,6 +162,7 @@ var teacherInformation = [
         'name': 'Saif Siddiqui',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -164,6 +171,7 @@ var teacherInformation = [
         'name': 'Minraj Bhandari',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -172,6 +180,7 @@ var teacherInformation = [
         'name': 'Minraj Bhandari',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -180,6 +189,7 @@ var teacherInformation = [
         'name': 'Minraj Bhandari',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -188,6 +198,7 @@ var teacherInformation = [
         'name': 'Minraj Bhandari',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -196,6 +207,7 @@ var teacherInformation = [
         'name': 'Minraj Bhandari',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -204,6 +216,7 @@ var teacherInformation = [
         'name': 'Minraj Bhandari',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     },
@@ -212,6 +225,7 @@ var teacherInformation = [
         'name': 'Minraj Bhandari',
         'post': 'Teacher',
         'level': "Secondary",
+        'contact':'9845678910',
         'subjects': ['Maths', 'Science', 'Computer Science']
 
     }
@@ -224,12 +238,13 @@ for (var a = 0; a < teacherInformation.length; a++) {
     var teacherName = teacherInformation[a]['name'];
     var teacherPost = teacherInformation[a]['post'];
     var teacherLevel = teacherInformation[a]['level'];
+    var teacherContact = teacherInformation[a]['contact'];
     /* var teacherSubject=teacherInformation[a]['subjects']; */
 
 
 
 
-    var teacherDetailInfo1 = "Teacher Name= " + teacherName + "<br>" + "Post =" + teacherPost + "<br>" + "Teacher Level= " + teacherLevel + "<br>" + "<br>"/* +"<br>"+teachersubjects */;
+    var teacherDetailInfo1 = "Teacher Name= " + teacherName + "<br>" + "Post =" + teacherPost + "<br>" + "Teacher Level= " + teacherLevel + "<br>"+"Conatct Number =" +teacherContact+ "<br>"+ "<br>"/* +"<br>"+teachersubjects */;
     document.getElementById("teacher").innerHTML += "<p>" + teacherDetailInfo1 + "</p>";
     /*  for(var b=0; b<teacherSubject.length; b++){
          var teachersubjects = teacherSubject[b];
